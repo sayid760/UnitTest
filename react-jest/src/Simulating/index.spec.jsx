@@ -20,3 +20,13 @@ test.skip("allows users to add items to their list", () => {
 
   getByText("RTL Presentation Slides");
 });
+
+
+
+// 提供了不同的函数去定位元素。定位后的元素可用于『断言』或者是『用户交互
+// import { render, screen } from '@testing-library/react'
+// test('renders learn react link', () => {
+//   render(<App />);
+//   const linkElement = screen.getByText(/learn react/i);
+//   expect(linkElement).toBeInTheDocument();
+// });
