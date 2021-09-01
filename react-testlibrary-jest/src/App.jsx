@@ -36,8 +36,8 @@ export const App = () => {
         <label htmlFor="new-todo">What needs to be done?</label>
         <br />
         <input id="new-todo" onChange={handleChange} value={text} />
-        <button>Add #{items.length + 1}</button>
+        <button data-testid="add-btn">Add #{items.length + 1}</button>
       </form>
     </div>
   );
-}
+};

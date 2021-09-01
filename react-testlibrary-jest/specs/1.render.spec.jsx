@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { App } from "./index";
+import { App } from "../src/App";
 
 test.skip("renders the correct content", () => {
   const root = document.createElement("div");
